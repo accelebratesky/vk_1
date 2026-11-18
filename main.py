@@ -29,6 +29,7 @@ def deal_jingji():
     for tt in range(2, 0, -1):
         print(f"剩余时间：{tt}秒\n")
         time.sleep(1)
+   
     print("紧急状态结束...\n")
 
     state=1
@@ -85,7 +86,7 @@ def change_state():
                 return
         print("切换交通灯...\n")
         state=1
-        nb='yellow'
+        nb='green'
         dx='red'
 
 print("======= 十字路口交通灯系统 ======\n")
